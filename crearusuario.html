@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Usuario | CACFlix</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body class="bodyform">
+    <header class="header">
+        <nav class="nav-principal">
+            <a href="index.html">
+                <img class="nav-logo" src="/src/CACFLIXLOGOFINAL.png" alt="logocacflix">
+            </a>
+            
+
+        </nav>
+    </header>
+
+    <section class="contenedorform">
+        
+        <form class="formulario">
+            <h1 id="creauser">Crear Usuario</h1>
+            <input class="input-form" type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input class="input-form" type="text" name="apellido" id="apellidp" placeholder="Apellido">
+            <input type="email" class="input-form" name="email" id="email" placeholder="Correo Electrónico">
+            <input class="input-form" type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Usuario">
+            <input class="input-form" type="password" name="clave" id="clave" placeholder="Contraseña">
+         
+            <label>Elija su fecha de nacimiento:</label>
+            <input class="input-form" type="date" id="fechanac" name="fechanac">
+            <select class="input-form" name="pais" id="pais">
+            <option disabled selected>País</option>    
+            <option value="ARG">Argentina</option>
+            <option value="BRA">Brasil</option>
+            <option value="BOL">Bolivia</option>
+            <option value="CHI">Chile</option>
+            <option value="PAR">Paraguay</option>
+            <option value="URU">Uruguay</option>
+        </select>
+            <br>
+            <input id="boton-crearusuario" class="boton-form" type="submit" value="Crear Usuario">
+            
+        </form>
+       
+    </section>
+
+    <footer>
+        <a href="#">Terminos de uso</a>
+        <a href="#">Politicas de privacidad</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Acerca de CACFlix</a>
+    </footer>
+</body>
+</html>
