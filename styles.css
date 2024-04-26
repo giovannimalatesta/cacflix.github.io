@@ -290,7 +290,7 @@ footer a:hover{
 }
 .infogral{
     color: antiquewhite;
-    background-image: url(/src/dunebackground.jpg);
+    background-image: url(../cacflix.github.io/src/dunebackground.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -499,7 +499,7 @@ iframe{
 
 /*----------------REGISTRO-------------------*/
 .bodyform{
-    background-image: url(/src/cine.jpg);
+    background-image: url(../cacflix.github.io/src/cine.jpg);
     background-size: cover;  
     color: antiquewhite; 
 }
