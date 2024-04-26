@@ -62,7 +62,7 @@ img{
     height: auto;
 }
 .bienvenida{
-    background-image: url(./src/cacflixfondo.jpg);
+    background-image: url(../cacflix.github.io/src/cacflixfondo.jpg);
     background-size: cover;
     background-position: center;
     height: 750px;
